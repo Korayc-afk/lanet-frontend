@@ -1,5 +1,2 @@
-Padi Teknik ve Geliştirme
+## Padi Teknik ve Geliştirme
 
-
-
-# KOD EN SON BURADA GÜNCELLENDİ
