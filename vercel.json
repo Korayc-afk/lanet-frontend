@@ -2,7 +2,11 @@
   "rewrites": [
     {
       "source": "/api/(.*)",
-      "destination": "http://176.123.4.70/api/$1" 
+      "destination": "https://lanet-backend.onrender.com/api/$1"
+    },
+    {
+      "source": "/uploads/(.*)",
+      "destination": "https://lanet-backend.onrender.com/uploads/$1"
     }
   ]
 }
