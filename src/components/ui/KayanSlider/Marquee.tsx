@@ -41,7 +41,7 @@ const Marquee = () => {
               className="flex-shrink-0 mx-3"
             >
               <img
-                src={`/api-uploads${banner.imageUrl}`}
+                src={`/api${banner.imageUrl}`}
                 alt={`Banner ${banner.id}`}
                 className="h-14 md:h-20 object-contain rounded-lg transition-transform duration-300 hover:scale-105"
               />

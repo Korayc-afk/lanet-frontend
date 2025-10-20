@@ -15,7 +15,7 @@ interface MainCard {
   isActive: boolean;
 }
 
-const BASE_URL = "/api-uploads";
+const BASE_URL = "/api";
 
 export default function Ozel() {
   const [cards, setCards] = useState<MainCard[]>([]);

@@ -39,7 +39,7 @@ const LayoutContent: React.FC = () => {
           <link
             rel="icon"
             type="image/png"
-            href={`/api-uploads${settings.faviconUrl}`}
+            href={`/api${settings.faviconUrl}`}
           />
         )}
       </Helmet>

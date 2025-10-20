@@ -83,7 +83,7 @@ const Header: React.FC<HeaderProps> = ({ onClick, onToggle, siteLogo }) => {
           <Link to="/" className="lg:hidden">
             {siteLogo ? ( // siteLogo varsa onu kullan
               <img
-                src={`/api-uploads${siteLogo}`}
+                src={`/api${siteLogo}`}
                 alt="Site Logosu"
                 className="max-h-10 dark:hidden" // Sizin stilinize göre ayarlayın
               />

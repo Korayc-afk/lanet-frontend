@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 import toast from "react-hot-toast";
 
-const BASE_URL = "/api-uploads"; // veya .env'den
+const BASE_URL = "/api"; // veya .env'den
 
 
 type MarqueeItem = {

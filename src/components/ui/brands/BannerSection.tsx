@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
 
-const BASE_URL = "/api-uploads"; // Backend adresin
+const BASE_URL = "/api"; // Backend adresin
 
 type PartnerBrand = {
   id: number;

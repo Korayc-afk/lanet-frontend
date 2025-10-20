@@ -94,7 +94,7 @@ const GenelAyarlar: React.FC<GenelAyarlarProps> = ({
                 Mevcut Logo:
               </span>
               <img
-                src={`/api-uploads${settings.siteLogoUrl}`}
+                src={`/api${settings.siteLogoUrl}`}
                 alt="Site Logosu"
                 className="max-h-24 rounded border border-gray-400 mt-1 object-contain mx-auto"
               />
@@ -114,7 +114,7 @@ const GenelAyarlar: React.FC<GenelAyarlarProps> = ({
                 Mevcut Favicon:
               </span>
               <img
-                src={`/api-uploads${settings.faviconUrl}`}
+                src={`/api${settings.faviconUrl}`}
                 alt="Favicon"
                 className="h-16 w-16 rounded border border-gray-400 mt-1 object-contain mx-auto"
               />

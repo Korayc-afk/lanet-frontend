@@ -25,7 +25,7 @@ export default function AuthLayout({ children, siteLogo }: AuthLayoutProps) {
                   <img
                     width={231}
                     height={48}
-                    src={`/api-uploads${siteLogo}`}
+                    src={`/api${siteLogo}`}
                     alt="Logo"
                   />
                 ) : (

@@ -5,7 +5,7 @@ import EnCokIzlenenTitle from "../../ui/menuBasliklar/EnCokIzlenenTitle";
 import "swiper/css";
 import "swiper/css/pagination";
 
-const BASE_URL = "/api-uploads";
+const BASE_URL = "/api";
 
 interface VideoItem {
   id: number;

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const BASE_URL = "/api-uploads";
+const BASE_URL = "/api";
 
 interface UnifiedBonusItem {
   id?: number;

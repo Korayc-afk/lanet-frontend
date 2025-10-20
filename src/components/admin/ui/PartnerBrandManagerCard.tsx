@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 import toast, { Toaster } from "react-hot-toast"; // ✅ toast import
 
-const BASE_URL = "/api-uploads";
+const BASE_URL = "/api";
 
 type PartnerBrand = {
   id: number;

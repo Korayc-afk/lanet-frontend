@@ -16,7 +16,7 @@ interface Sponsor {
   isMain: boolean;
 }
 
-const BASE_URL = "/api-uploads";
+const BASE_URL = "/api";
 
 const PREDEFINED_BACKGROUNDS = [
   { label: "🎯 Ana Bonus BG", value: "bg-1.png" },

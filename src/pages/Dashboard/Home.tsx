@@ -10,7 +10,7 @@ import Footer from "../../components/footer/Footer";
 import UnifiedBonusCard from "../../components/ui/UnifiedBonusCard/UnifiedBonusCard";
 import { useSettings } from "../../context/SettingsContext"; // 🌟 burada
 
-const BASE_URL = "/api-uploads";
+const BASE_URL = "/api";
 
 interface PromotionCard {
   id: number;

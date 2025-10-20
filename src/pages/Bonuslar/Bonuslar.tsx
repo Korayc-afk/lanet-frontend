@@ -12,7 +12,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 import { Pagination, Autoplay } from "swiper/modules";
 
-const BASE_URL = "/api-uploads";
+const BASE_URL = "/api";
 
 interface Sponsor {
   id: number;

@@ -8,7 +8,7 @@ import SosyalMedya from "../../components/ui/sosyal/SosyalMedya";
 import VideoCard from "../../components/ui/EnCokIzlenenler/VideoCard";
 import Footer from "../../components/footer/Footer";
 
-const BASE_URL = "/api-uploads";
+const BASE_URL = "/api";
 
 interface Sponsor {
   id: number;

@@ -89,12 +89,12 @@ const AppHeader: React.FC<AppHeaderProps> = ({ settings }) => {
               <>
                 <img
                   className="dark:hidden h-8"
-                  src={`/api-uploads${currentSettings.siteLogoUrl}`}
+                  src={`/api${currentSettings.siteLogoUrl}`}
                   alt={currentSettings.siteTitle || "Site Logosu"}
                 />
                 <img
                   className="hidden dark:block h-8"
-                  src={`/api-uploads${currentSettings.siteLogoUrl}`}
+                  src={`/api${currentSettings.siteLogoUrl}`}
                   alt={currentSettings.siteTitle || "Site Logosu"}
                 />
               </>

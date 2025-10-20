@@ -546,7 +546,7 @@ export default function AppSidebar({
               {siteLogo ? ( // siteLogo varsa onu kullan
                 <img
                   className="dark:hidden"
-                  src={`/api-uploads${siteLogo}`}
+                  src={`/api${siteLogo}`}
                   alt="Site Logosu"
                   width={150}
                   height={40}
@@ -564,7 +564,7 @@ export default function AppSidebar({
               {siteLogo ? ( // siteLogo varsa onu kullan (dark tema için)
                 <img
                   className="hidden dark:block"
-                  src={`/api-uploads${siteLogo}`}
+                  src={`/api${siteLogo}`}
                   alt="Site Logosu"
                   width={150}
                   height={40}
@@ -583,7 +583,7 @@ export default function AppSidebar({
           ) : (
             favicon ? ( // favicon varsa onu kullan
               <img
-                src={`/api-uploads${favicon}`}
+                src={`/api${favicon}`}
                 alt="Favicon"
                 width={32}
                 height={32}
